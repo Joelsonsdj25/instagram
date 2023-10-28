@@ -1,0 +1,63 @@
+body {
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.imagens {position: relative;}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 25px;
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+input {
+    height: 35px;
+    border: solid 1px #d3d3d3;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+button {
+    background: #0095f6;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.esqueceu {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+}
